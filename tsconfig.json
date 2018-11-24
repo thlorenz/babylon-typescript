@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "ES2018",
+    "strict": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "babylonjs": [ "node_modules/babylonjs/babylon.d.ts" ]
+    }
+  }
+}
